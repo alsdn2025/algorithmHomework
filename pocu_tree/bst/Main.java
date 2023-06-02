@@ -71,7 +71,7 @@ public class Main {
     }
 
     /**
-     * 전위 순회
+     * 전위 순회(pre-order)
      */
     private static void printBSTRecursivePreOrder(Node node, StringBuilder sb) {
         if(node == null)
@@ -82,7 +82,7 @@ public class Main {
     }
 
     /**
-     * 전위 순회 - 재귀 X
+     * 전위 순회 - 재귀 X 버젼
      */
     public static void printBSTPreOrder(Node root, StringBuilder sb) {
         if(root == null)
@@ -108,7 +108,7 @@ public class Main {
     }
 
     /**
-     * 후위 순회
+     * 후위 순회(post-order)
      */
     private static void printBSTRecursivePostOrder(Node node, StringBuilder sb) {
         if(node == null)
