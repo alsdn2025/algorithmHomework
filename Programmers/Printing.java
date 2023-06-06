@@ -1,5 +1,4 @@
-package Programmers_L0;
-import java.util.*;
+package Programmers;
 
 public class Printing {
     public static void main(String[] args) {
