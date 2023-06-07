@@ -60,7 +60,7 @@ public class L1_RunningRace {
             mappedByOrder.put(i, players[i]);
         }
 
-        // 이동 카운팅
+        // 추월
         for (String name : callings) {
             int callRanking = mappedByName.get(name); // 호명된 선수의 추월 전 등수
             int frontRanking = callRanking - 1; // 호명된 선수의 앞 선수의 등수
