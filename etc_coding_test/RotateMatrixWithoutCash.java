@@ -3,7 +3,7 @@ package etc_coding_test;
 import java.util.Random;
 
 /**
- * 문졔: int 형 2차원 행렬로 이루어진 이미지 데이터가 주어졌을 때, 이미지를 오른쪽으로 90도 회전시키는 프로그램을 작성하라.
+ * 문제: int 형 2차원 행렬로 이루어진 이미지 데이터가 주어졌을 때, 이미지를 오른쪽으로 90도 회전시키는 프로그램을 작성하라.
  * 제한 사항: 추가적인 캐시 메모리 ( 배열, 리스트, 해시 테이블 등 자료구조 ) 의 사용을 금한다.
  */
 public class RotateMatrixWithoutCash {
